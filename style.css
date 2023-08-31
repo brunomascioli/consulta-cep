@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.title{
+    background-color: rgb(120, 120, 235);
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.cepInput{
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+    border-style: 0.1px solid;
+    border-color: rgb(199, 199, 199);
+}
+
+#searchButton{
+    width: 15%;
+    background-color: #0071ad;
+    color: #FFF;
+    display: block;
+    align-self: center;
+    padding: 10px;
+    border-style: none;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#searchButton:hover{
+    background-color: #034c74;
+}
+
+.result{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.result p{
+    margin-top: 10px;
+    font-size: 20px;
+}
